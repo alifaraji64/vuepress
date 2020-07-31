@@ -1,3 +1,15 @@
+---
+title: webpack tutorial
+sidebar: auto
+
+postId: 0
+date: june 10th,2020
+description: what is webpack and why you should use it
+tags:
+  - webpack
+  - bundler
+pageClass: custom-page-class
+---
 # webpack tutorial
 
 <img src="../.vuepress/public/webpackforblog.png" class='webpackImg' />
@@ -259,3 +271,12 @@ devServer: {
 we are saying to webpack to serve the files in dist folder.
 now we need to run `npm run dev` once and we can change the files and see their changes in realtime.
 i hope now you have a good understand of what is webpack and how it is working thank you. I appreciate your time :grinning::+1:
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<disqus/>

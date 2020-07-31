@@ -16,6 +16,7 @@ features:
   details: The focus of this site in teaching is on different subjects so, you
    will learn about various technologies like webpack,git,vue,node,mongodb, firebase,...  .
 footer: Copyright © 2020- ali faraji
+pageClass: custom-page-class
 ---
 
 

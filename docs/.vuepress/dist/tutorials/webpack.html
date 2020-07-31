@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>webpack tutorial | webDevWorld</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    
+    <meta name="description" content="what is webpack and why you should use it">
+    <link rel="preload" href="/assets/css/0.styles.aaaaf899.css" as="style"><link rel="preload" href="/assets/js/app.b8b95ca1.js" as="script"><link rel="preload" href="/assets/js/2.76733166.js" as="script"><link rel="preload" href="/assets/js/6.d0f9401f.js" as="script"><link rel="preload" href="/assets/js/7.86188503.js" as="script"><link rel="prefetch" href="/assets/js/10.1ee6ef82.js"><link rel="prefetch" href="/assets/js/11.81b20f28.js"><link rel="prefetch" href="/assets/js/12.814825a3.js"><link rel="prefetch" href="/assets/js/3.091807f6.js"><link rel="prefetch" href="/assets/js/4.f5c08847.js"><link rel="prefetch" href="/assets/js/5.3f780ce3.js"><link rel="prefetch" href="/assets/js/8.bfc94a46.js"><link rel="prefetch" href="/assets/js/9.140c163a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.aaaaf899.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container custom-page-class"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">webDevWorld</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  home
+</a></div><div class="nav-item"><a href="/tutorials/" class="nav-link router-link-active">
+  tutorials
+</a></div><div class="nav-item"><a href="https://ctwbt.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  about me
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  home
+</a></div><div class="nav-item"><a href="/tutorials/" class="nav-link router-link-active">
+  tutorials
+</a></div><div class="nav-item"><a href="https://ctwbt.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  about me
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>webpack tutorial</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tutorials/webpack.html#what-is-webpack" class="sidebar-link">what is webpack?</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/tutorials/webpack.html#install-webpack" class="sidebar-link">install webpack</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/tutorials/webpack.html#html-webpack-plugin" class="sidebar-link">html-webpack-plugin</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/tutorials/webpack.html#babel-loader" class="sidebar-link">babel-loader</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/tutorials/webpack.html#working-with-css" class="sidebar-link">working with css</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/tutorials/webpack.html#other-loaders" class="sidebar-link">other loaders</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/tutorials/webpack.html#webpack-dev-server" class="sidebar-link">webpack-dev-server</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="webpack-tutorial"><a href="#webpack-tutorial" class="header-anchor">#</a> webpack tutorial</h1> <img src="/assets/img/webpackforblog.9681b064.png" class="webpackImg"> <h2 id="what-is-webpack"><a href="#what-is-webpack" class="header-anchor">#</a> what is webpack?</h2> <p>one of the most important tools in web development is definitely webpack when I was a beginner
+I was supposing that it is useless and i can do the same thing without webpack but when I started
+to dealing with larger projects I found out that it is life saver. especially when you are dealing
+with many js-css-sass,... files. if you search in google what is webpack you will see this definition : webpack is a module bundler.that is true but not the best definition for a beginner
+let's break it down. imagine we have a project and it has three js files.
+<img src="/assets/img/webpackDiagram.e8e61176.svg" class="webpack-diagram"></p> <p>and each file depends on other file. that's mean we need one.js to execute two.js and also
+two.js to execute three.js. therefore we are requiring one.js from two.js and two.js from
+three.js (with <span class="highlight">import</span> or <span class="highlight">require</span> statements).
+in order to execute all of the files properly we should include script tags in order in html page
+which is very ease in this case but imagine we have a larger project with 30 js files it can be very
+difficult to include all of them in order. this is where webpack start it's magic. i takes all js files and it will include them properly in html. so we don't need to worry about order. this is not
+the only benefit of using webpack you will learn more as we go along. if you are using js frameworks
+like <span class="highlight">vue</span> or <span class="highlight">react</span> (with cli) you don't
+have to use webpack manually because cli is using webpack out of the box. when you are running this
+command:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> run build
+</code></pre></div><p>webpack is taking all of your files such as js,sass,less,ts,...
+and and budling them together. we are not going to use any framework for this tutorial. we are going
+to use plain js with css and sass.Ok let's start 🎉🎉</p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>before we start the practical part there is a few concepts
+that you should understand:1-entry 2-output 3-loaders 4-mode</p></div> <p><span class="highlight"><strong>Entry:</strong></span>
+entry point in webpack is the file that webpack starts from it to build it's dependency graph we can specify the location of entry point but by default the entry point is ./src/index.js . it will start from index.js and depends on modules that we've used in it webpack will create the dependency graph.
+<br> <span class="highlight"><strong>Output:</strong></span>
+output is the location that all of bundles will go there. by default the output location is ./dist/main.js . but you don't have to make dist folder manually. webpack will do that for you.
+<br> <span class="highlight"><strong>Loaders:</strong></span>
+by default webpack can just understand files with .js and .json extension. so all other files such as css,typescript,sass will be converted to javascript and this process is done with help of loaders.
+<br> <span class="highlight"><strong>Mode:</strong></span>
+it specify that we are using webpack in development mode or production mode.
+we should use production mode when our app is ready to deploy.</p> <h2 id="install-webpack"><a href="#install-webpack" class="header-anchor">#</a> install webpack</h2> <p>first we should make a folder(my-webapck) for our project then create a package.json file with this command and then change the directiory to my-webpack folder:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">mkdir</span> my-webpack <span class="token operator">&amp;&amp;</span> <span class="token function">npm</span> init -y <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> <span class="token operator">&lt;</span>nameOfProject<span class="token operator">&gt;</span>
+</code></pre></div><p>then we should install webpack locally in our devDependencies because we don't need webpack when we are deploying our app</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> i webpack webpack-cli --save-dev
+</code></pre></div><p>in package.json file add these lines to your scripts:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token property">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;webpack --mode development&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;webpack --mode production&quot;</span>
+</code></pre></div><p><code>npm run dev</code> command will run webpack in development mode and
+<code>npm run build</code> will run webpack in production mode.</p> <p>now create a src folder at the root of your project and create an index.js file in it
+.inside of index.js just include this:</p> <div class="language-js extra-class"><pre class="language-js"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;hello world&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>then run <code>npm run dev</code> command you will see a dist folder will show and main.js file in it open up main.js you will see the <code>console.log('hello world')</code> at the end
+but wait!!!! 😕😕 we just wrote a single line of code but there is nearly 100 lines now. yes the extra 99 lines of code is the code that webpack will do all of it's magic work with so don't worry and don't delete them. so the code in index.js is bundled by webpack but to make sure that our code is working properly in browser we have to make an index.html page let's make it in dist folder that webpack created for us.</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>main.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="html-webpack-plugin"><a href="#html-webpack-plugin" class="header-anchor">#</a> html-webpack-plugin</h2> <p>yeah it's working you can see 'hello world' in the console of browser.
+so far,so good but there is a little problem. imagine we want to change the name of index.js file in src folder . then we have to run <code>npm run dev</code> command again
+to rebuild the dist folder. name of the js file in dist folder gonna change but in index.html we are referencing main.js which does'nt exist. in conclusion it is not good to write index.html manually we can solve this problem by installing this package</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> i html-webpack-plugin --save-dev
+</code></pre></div><p>to activate this plugin and other configurations we have to make <code>webpack.config.js</code> file at the root directory with this content:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> htmlWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;html-webpack-plugin&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;path&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token keyword">new</span> <span class="token class-name">htmlWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      title<span class="token operator">:</span> <span class="token string">&quot;hey I'm title&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>run <code>npm run dev</code> command and you will see that an index.html page is generated with that specific title and script tag included automatically.</p> <p>I mentioned earlier that there is default locations for entry point and output but we can change them in <code>webpack.config.js</code>.add this part before plugins.</p> <div class="language-js extra-class"><pre class="language-js"><code>entry<span class="token operator">:</span><span class="token string">'./src/app.js'</span><span class="token punctuation">,</span>
+output<span class="token operator">:</span><span class="token punctuation">{</span>
+    filename<span class="token operator">:</span><span class="token string">'[name].bundle.js'</span><span class="token punctuation">,</span>
+    path<span class="token operator">:</span>path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span><span class="token string">'dist'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>now rename the index.js file to app.js and create <code>app2.js</code> in src folder with this content:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">(</span>text <span class="token operator">=</span> <span class="token string">&quot;good morning guys&quot;</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> element <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;p&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  element<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> text<span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> element<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>in app.js:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> app2 <span class="token keyword">from</span> <span class="token string">&quot;./app2&quot;</span><span class="token punctuation">;</span>
+document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span><span class="token function">app2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>and run <code>npm run dev</code>.</p> <h2 id="babel-loader"><a href="#babel-loader" class="header-anchor">#</a> babel-loader</h2> <p>now you can see index.html and main.bundle.js in your dist folder if you open that up and scroll all the way to bottom you can see there is an arrow function which is an ES6 feature and some older browsers don't support <code>ES6</code> so we need to compile it to normal function and make it compatible with all browsers. here we have to use babel which is a loader and also extra packages which babel depends on them</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> i babel-loader @babel/core @babel/preset-env --save-dev
+</code></pre></div><p>for activate this loader lets go to <code>webpack.config.js</code>.
+to activating a loader we should make rules array before plugins and after output.</p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>each object in rules array represent a single loader and these objects have three properties: <code>test:</code>the value of test is REGEX that specifies which files we want to to be processed by a specific loader.
+<code>exclude:</code> it defines the type of file that we don't want to be processed by a loader.
+<code>use:</code> it defines which loader will be used against matched modules</p></div> <p>add these lines to your <code>webpack.config.js</code> before plugins:</p> <div class="language-js extra-class"><pre class="language-js"><code> module<span class="token operator">:</span> <span class="token punctuation">{</span>
+        rules<span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                test<span class="token operator">:</span> <span class="token regex">/\.js$/</span><span class="token punctuation">,</span>
+                exclude<span class="token operator">:</span> <span class="token regex">/node_modules/</span><span class="token punctuation">,</span>
+                use<span class="token operator">:</span> <span class="token punctuation">{</span>
+                    loader<span class="token operator">:</span> <span class="token string">'babel-loader'</span><span class="token punctuation">,</span>
+                    options<span class="token operator">:</span> <span class="token punctuation">{</span>
+                        presets<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'@babel/preset-env'</span><span class="token punctuation">]</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div><p>and now run <code>npm run dev</code> then check the check the <code>main.bundle.js</code>. you can see there is not arrow function anymore and it is compatible with all browsers</p> <h2 id="working-with-css"><a href="#working-with-css" class="header-anchor">#</a> working with css</h2> <p>we have to install two loaders for working with css.</p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>the first one is <code>css-loader</code> it parses css into javasript becuase webpack can just understand javascript and json.then we need another loader to include the css into html page and that is <code>style-loader</code></p></div> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> i css-loader style-loader --save-dev
+</code></pre></div><p>now we need to initialize them in <code>webpack.config.js</code>. add the following code to rules array as second object.</p> <div class="language-js extra-class"><pre class="language-js"><code>            <span class="token punctuation">{</span>
+                test<span class="token operator">:</span><span class="token regex">/\.css$/</span><span class="token punctuation">,</span>
+                use<span class="token operator">:</span><span class="token punctuation">[</span>
+                    <span class="token punctuation">{</span>loader<span class="token operator">:</span><span class="token string">'style-loader'</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>loader<span class="token operator">:</span><span class="token string">'css-loader'</span><span class="token punctuation">}</span>
+                <span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+</code></pre></div><p>loaders in webpack are evaluated in reverse(from right to left) so first we should write <code>css-loader</code>.
+now let's create a <code>style.css</code> file in src folder with this content:</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">body</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> grey<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>then import this file to <code>app.js</code>:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token string">&quot;./style.css&quot;</span><span class="token punctuation">;</span>
+</code></pre></div><p>run <code>npm run dev</code> and open the index.html page. you will see the background is grey.</p> <h2 id="other-loaders"><a href="#other-loaders" class="header-anchor">#</a> other loaders</h2> <p>if you are using <span class="highlight">sass</span> before using <code>css-loader</code> you should use <code>sass-loader</code> for compiling sass to css .also you can use <code>ts-loader</code> if you want to write <span class="highlight"><strong>typescript</strong></span>.
+for assets like images you can use <code>file-loader</code>.
+but i will not explain all of them in detail because all of them is very similar and easy to use if you faced a problem checkout the github repo for each loader.</p> <h2 id="webpack-dev-server"><a href="#webpack-dev-server" class="header-anchor">#</a> webpack-dev-server</h2> <p>currently we need to rebuild all of our code after even a small change in code which causes a lot of time to waste we can solve this with a very useful package so we don't need to run <code>npm run dev</code> for every change:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> i webpack-dev-server --save-dev
+</code></pre></div><p>we need to update the script in <code>package.json</code> to this:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token property">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;webpack-dev-server --mode development&quot;</span><span class="token punctuation">,</span>
+</code></pre></div><p>and configure it in <code>webpack.config.js</code>:</p> <div class="language-js extra-class"><pre class="language-js"><code>devServer<span class="token operator">:</span> <span class="token punctuation">{</span>
+  contentBase<span class="token operator">:</span> <span class="token string">'./dist'</span><span class="token punctuation">,</span>
+  open<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div><p>we are saying to webpack to serve the files in dist folder.
+now we need to run <code>npm run dev</code> once and we can change the files and see their changes in realtime.
+i hope now you have a good understand of what is webpack and how it is working thank you. I appreciate your time 😀👍
+<br> <br> <br> <br> <br> <br></p> <div id="disqus_thread" style="min-height:200px;"></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.b8b95ca1.js" defer></script><script src="/assets/js/2.76733166.js" defer></script><script src="/assets/js/6.d0f9401f.js" defer></script><script src="/assets/js/7.86188503.js" defer></script>
+  </body>
+</html>

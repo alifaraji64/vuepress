@@ -1,16 +1,21 @@
 #main-title{
-    color:#005e00
+    color:#00de07
 }
 .home .hero .action-button{
     background-color: black;
     }
 .home .features .feature p  {
-    color: #0155a9;
+    color: #5999ff;
     font-size: 1.24rem;
+}
+.home .features .feature H2  {
+    font-size: 1.6rem;
 }
 p{
     font-size:1.4rem;
-    line-height: 2.6rem
+    line-height: 2.6rem;
+    word-spacing: 1px;
+    letter-spacing: 2px;
 }
 .webpack-diagram{
     display: block;
@@ -18,7 +23,7 @@ p{
     }
 
 .highlight{
-    background-color:#9cfaff;
+    background-color:#0033ff;
     padding: .2rem;
     border-radius: 5px;
 }
@@ -29,7 +34,6 @@ p{
     line-height: 1.6rem;
     max-width: 40rem;
     }
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 .navbar .site-name{
     font-family: 'Shrikhand', cursive;
     font-size: 2rem;
@@ -45,12 +49,9 @@ p{
     transform: scale(1) translateX(-25px);
     text-align: center;
 }
-.sidebar{
-
-}
 @media only screen and (max-width:719px){
     .home-link{
-        transform: scale(1) translateX(-25px);
+        transform: scale(0.8) translateX(-25px);
         left:25px;
         position:relative;
         width: 70%;
@@ -71,11 +72,37 @@ p{
     margin:.5rem auto;
     hright:25rem;
 }
-.nav-link{
-    font-size: 1.4rem;
-    font-weight: bolder;
-}
+
 img{
     text-align: center;
     margin:auto;
+}
+.theme-container.custom-page-class {
+  background: #1a1a1a;
+  color:white;
+}
+.tip{
+    color:green;
+}
+.sidebar{
+    background: #262626
+}
+.sidebar a{
+    
+}
+.nav-link{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    background: black;
+    padding:0.5rem;
+    border-radius: 10px;
+}
+.router-link-active{
+    color:red;
+}
+.navbar{
+    background: #262626;
+}
+.navbar .links{
+    background: #262626 !important
 }

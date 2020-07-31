@@ -7,10 +7,14 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "vue-disqus": "^4.0.0",
     "vuepress": "^1.4.1"
   }
 }

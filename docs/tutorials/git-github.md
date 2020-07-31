@@ -1,3 +1,17 @@
+---
+title: git-github tutorial
+sidebar: auto
+
+postId: 1
+date: june 18th,2020
+description: what is git and github and how to use them with our projects
+tags:
+  - git
+  - github
+  - version control
+pageClass: custom-page-class
+---
+
 # Complete Guide To Git and Github
 
 <img src="../.vuepress/public/gitforblog.png" class='gitImg'/>
@@ -128,3 +142,12 @@ git push origin master
 ```
 
 with this command you will push your project to master branch of the origin repository.<br/>okeey this is the end of the git and github for begginers tutorial i'm planning to make a tutorial about more advanced topics in git and github like branching,merging,pull request,etc in the near future. hope you learned a lot. have a good day or night in where ever you are :v: :v:.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<disqus/>

@@ -1,1 +1,6 @@
-# hey this is guide
+---
+sidebar: false
+pageClass: custom-page-class
+---
+# Blogs
+<BlogIndex/>

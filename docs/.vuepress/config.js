@@ -5,11 +5,11 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "home", link: "/" },
-      { text: "tutorials", link: "/tutorials/" },
+      { text: "blogs", link: "/tutorials/" },
       { text: "about me", link: "https://ctwbt.com" },
     ],
     sidebar: {
-      "/tutorials/": ["", "webpack", "git-github"],
+      "/tutorials/": ["webpack", "git-github"],
     },
   },
 };

@@ -1,16 +1,15 @@
 <template>
-  <Disqus shortname='webdevworld-org' />
+  <Disqus shortname="webdevworld-org" />
 </template>
 
 <script>
-import { Disqus } from 'vue-disqus'
+import { Disqus } from "vue-disqus";
 export default {
-    components:{
-        Disqus
-    }
-}
+  components: {
+    Disqus,
+  },
+};
 </script>
 
 <style>
-
 </style>

@@ -13,6 +13,7 @@ pageClass: custom-page-class
 ---
 
 <img src="../.vuepress/public/canvas-resize-min.jpg" class='webpackImg' width='700'/>
+
 # why you should resize your images before uploading it to server?
 
 if you are making an app that users are submiting their own images and you are saving them to your server or database then you must resize your images based on the app that you have. imagine you want to display an image in your app with 200px _ 200px but the user submited a very large image. something like 1080px _ 1080px. at this point you have two options. you can save the massive image and change the size with css or alternatively you can resize the image before user submission. but there is a problem with the first approach. if you want to display a small image I don't see any point in saving a massive image, it is pointless. and it is just a waste of space in your server or database. also it will cause huge performance issues :sweat: because each time server is sending a massive image that is not going to be used. so now hope you know why it is important to resize user submited images :blush:
@@ -139,9 +140,13 @@ but you can give any number from 0 to 1.
 
 :::
 canvas.toDataURL() method returns a very long string similar to this
-<span class='highlight'>'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/4T/ERXhpZgAATU0AKgAAAAgABgAL'</span>
+<span class='highlight'>'data:image/jpeg;base64,/9j
+/4AAQSkZgABAQEBLAE...'</span>
 . you can store that string in database.
 
 yeah. that was all about resizing image with vanilla javascript. hope you learned something please let me know in the comments if it worked for you.
 thank you so much for reading, have a great day. :blush::blush:
+<br/>
+<br/>
+<br/>
 <disqus/>
